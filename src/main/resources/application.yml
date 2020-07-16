@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://120.78.88.86:3306/springboot_cache
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

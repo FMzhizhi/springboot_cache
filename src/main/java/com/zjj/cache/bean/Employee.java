@@ -1,11 +1,19 @@
 package com.zjj.cache.bean;
 
-public class Employee {
-	
+import java.io.Serializable;
+
+public class Employee implements Serializable {
+
+	private static final long serialVersionUID = -8198383512804808856L;
+
 	private Integer id;
+
 	private String lastName;
+
 	private String email;
+
 	private Integer gender; //性别 1男  0女
+
 	private Integer dId;
 	
 	
